@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:drawableStart="@drawable/ic_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="August 2"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:drawableStart="@drawable/ic_sunny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location-Sylhet"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:drawableStart="@drawable/ic_sunny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature-30 C"
+        android:textSize="30dp"
+        android:drawableLeft="@drawable/ic_sunny" />
+
+    <TextView
+        android:drawableStart="@drawable/ic_sunny"
+        android:padding="-10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity-78%"
+        android:textSize="30dp"/>
+    <TextView
+        android:drawableStart="@drawable/ic_sunny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure-25"
+        android:textSize="30dp"
+       />
+    <TextView
+        android:drawableStart="@drawable/ic_sunny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind-1km/s"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:drawableStart="@drawable/ic_sunny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forcast"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:drawableStart="@drawable/ic_sunny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostly Sunny"
+        android:textSize="30dp"
+        />
+
+</LinearLayout>
